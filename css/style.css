@@ -77,29 +77,21 @@ h1, h2, h3, h4 { font-family: var(--font-display); margin: 0; font-weight: 700; 
   margin: 0 auto;
 }
 
-.logo{
-    display:flex;
-    align-items:center;
-    justify-content:center;
+.logo {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--white);
+  letter-spacing: 0.5px;
 }
-
-.logo a{
-    display:flex;
-    align-items:center;
-    text-decoration:none;
-}
-
-.logo img{
-    height:100px;      /* Logo balandligi */
-    width:auto;
-    display:block;
-    object-fit:contain;
-    transition:all .3s ease;
-
-}
-
-.logo img:hover{
-    transform:scale(1.05);
+.logo span { color: var(--gold); }
+.logo small {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.62rem;
+  letter-spacing: 3px;
+  color: var(--teal-light);
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .nav-menu {
